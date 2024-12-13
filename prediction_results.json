@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "user_id": "Aさん",
+        "user_comment": "こんにちは",
+        "context_label": 0,
+        "psychological_label": 0,
+        "label": false,
+        "context": "こんにちは 私は占い師です Aさんを占った結果，市民でした 私も占い師です．Aさんを占った結果，人狼でした Bさんは少し声が震えてて怪しいです",
+        "pred_label": true
+    },
+    {
+        "id": 2,
+        "user_id": "Bさん",
+        "user_comment": "私は占い師です",
+        "context_label": 0,
+        "psychological_label": 0,
+        "label": false,
+        "context": "こんにちは 私は占い師です Aさんを占った結果，市民でした 私も占い師です．Aさんを占った結果，人狼でした Bさんは少し声が震えてて怪しいです",
+        "pred_label": false
+    },
+    {
+        "id": 3,
+        "user_id": "Bさん",
+        "user_comment": "Aさんを占った結果，市民でした",
+        "context_label": 0,
+        "psychological_label": 0,
+        "label": false,
+        "context": "こんにちは 私は占い師です Aさんを占った結果，市民でした 私も占い師です．Aさんを占った結果，人狼でした Bさんは少し声が震えてて怪しいです",
+        "pred_label": false
+    },
+    {
+        "id": 4,
+        "user_id": "Cさん",
+        "user_comment": "私も占い師です．Aさんを占った結果，人狼でした",
+        "context_label": 0,
+        "psychological_label": 2,
+        "label": true,
+        "context": "こんにちは 私は占い師です Aさんを占った結果，市民でした 私も占い師です．Aさんを占った結果，人狼でした Bさんは少し声が震えてて怪しいです",
+        "pred_label": false
+    },
+    {
+        "id": 5,
+        "user_id": "Dさん",
+        "user_comment": "Bさんは少し声が震えてて怪しいです",
+        "context_label": 0,
+        "psychological_label": 0,
+        "label": false,
+        "context": "こんにちは 私は占い師です Aさんを占った結果，市民でした 私も占い師です．Aさんを占った結果，人狼でした Bさんは少し声が震えてて怪しいです",
+        "pred_label": false
+    },
+    {
+        "id": 6,
+        "user_id": "ゲームマスター",
+        "user_comment": "追放する人を決める時間です．少し話し合ってください",
+        "context_label": 1,
+        "psychological_label": 0,
+        "label": false,
+        "context": "追放する人を決める時間です．少し話し合ってください 昨日の夜の会話でBさんとAさんのことを疑っていたんだけど，Dさんも同じようなことを考えていたからどちらかが人狼だと思います． 私もそう思う！特にBさんは昨日はとてもヒソヒソしていたよ！ 私も怪しいと思ってたんだよね．Bさんを追放しよう！！ 私は本当に占い師なんだけど...",
+        "pred_label": false
+    },
+    {
+        "id": 7,
+        "user_id": "Cさん",
+        "user_comment": "昨日の夜の会話でBさんとAさんのことを疑っていたんだけど，Dさんも同じようなことを考えていたからどちらかが人狼だと思います．",
+        "context_label": 1,
+        "psychological_label": 1,
+        "label": true,
+        "context": "追放する人を決める時間です．少し話し合ってください 昨日の夜の会話でBさんとAさんのことを疑っていたんだけど，Dさんも同じようなことを考えていたからどちらかが人狼だと思います． 私もそう思う！特にBさんは昨日はとてもヒソヒソしていたよ！ 私も怪しいと思ってたんだよね．Bさんを追放しよう！！ 私は本当に占い師なんだけど...",
+        "pred_label": false
+    },
+    {
+        "id": 8,
+        "user_id": "Dさん",
+        "user_comment": "私もそう思う！特にBさんは昨日はとてもヒソヒソしていたよ！",
+        "context_label": 1,
+        "psychological_label": 0,
+        "label": false,
+        "context": "追放する人を決める時間です．少し話し合ってください 昨日の夜の会話でBさんとAさんのことを疑っていたんだけど，Dさんも同じようなことを考えていたからどちらかが人狼だと思います． 私もそう思う！特にBさんは昨日はとてもヒソヒソしていたよ！ 私も怪しいと思ってたんだよね．Bさんを追放しよう！！ 私は本当に占い師なんだけど...",
+        "pred_label": false
+    },
+    {
+        "id": 9,
+        "user_id": "Aさん",
+        "user_comment": "私も怪しいと思ってたんだよね．Bさんを追放しよう！！",
+        "context_label": 1,
+        "psychological_label": 0,
+        "label": false,
+        "context": "追放する人を決める時間です．少し話し合ってください 昨日の夜の会話でBさんとAさんのことを疑っていたんだけど，Dさんも同じようなことを考えていたからどちらかが人狼だと思います． 私もそう思う！特にBさんは昨日はとてもヒソヒソしていたよ！ 私も怪しいと思ってたんだよね．Bさんを追放しよう！！ 私は本当に占い師なんだけど...",
+        "pred_label": false
+    },
+    {
+        "id": 10,
+        "user_id": "Bさん",
+        "user_comment": "私は本当に占い師なんだけど...",
+        "context_label": 1,
+        "psychological_label": 0,
+        "label": false,
+        "context": "追放する人を決める時間です．少し話し合ってください 昨日の夜の会話でBさんとAさんのことを疑っていたんだけど，Dさんも同じようなことを考えていたからどちらかが人狼だと思います． 私もそう思う！特にBさんは昨日はとてもヒソヒソしていたよ！ 私も怪しいと思ってたんだよね．Bさんを追放しよう！！ 私は本当に占い師なんだけど...",
+        "pred_label": false
+    }
+]
