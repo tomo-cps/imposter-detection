@@ -112,7 +112,7 @@ def main():
     model_name = "elyza/Llama-3-ELYZA-JP-8B"
     system_prompt = get_default_system_prompt()
     
-    prompt_type = PromptType.FEW_SHOT
+    prompt_type = PromptType.FEW_SHOT # ZERO_SHOT, FEW_SHOT
     prompt_func = PROMPT_FUNC_MAPPING[prompt_type]
     
     input_path = Path("data/sample.csv")
